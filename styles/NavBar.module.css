@@ -1,0 +1,40 @@
+.logo {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 2rem;
+}
+
+.zColor {
+    color: orange;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 5vh;
+}
+
+.listItems {
+    display: flex;
+    flex-direction: row;
+    border-bottom: none;
+    transition: .5s;
+    height: 4vh;
+    width: 10vw;
+    justify-content: space-evenly;
+}
+
+.listItems:hover {
+
+    border-bottom: 1px solid orange;
+    transition: .5s;
+}
