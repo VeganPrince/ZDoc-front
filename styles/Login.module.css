@@ -1,0 +1,26 @@
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginImage {
+    height: 80vh;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 1em #4B0082;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    height: 80vh;
+    width: 30vw;
+    border-radius: 0 10px 10px 0;
+    gap: 2vh;
+    box-shadow: 0 0 1em #4B0082;
+}

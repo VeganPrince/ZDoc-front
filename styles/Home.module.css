@@ -30,6 +30,10 @@
     font-weight: bold;
 }
 
+.userName{
+    color: orange;
+}
+
 .footer {
     grid-area: foot;
     grid-column-start: 2;

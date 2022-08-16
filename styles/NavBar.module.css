@@ -26,11 +26,12 @@
 .listItems {
     display: flex;
     flex-direction: row;
-    border-bottom: none;
+    border-bottom: 1px solid transparent;
     transition: .5s;
     height: 4vh;
-    width: 10vw;
-    justify-content: space-evenly;
+    width: 8vw;
+    justify-content: left;
+    gap: .8vw;
 }
 
 .listItems:hover {
