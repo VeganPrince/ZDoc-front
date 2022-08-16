@@ -21,7 +21,6 @@ export default function Home() {
   }, []);
 
   return (
-
     <div className={styles.container}>
       <Head>
         <title>ZDoc</title>
