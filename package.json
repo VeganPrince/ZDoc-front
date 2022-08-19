@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.22.5",
     "axios": "^0.27.2",
+    "axios-endpoints": "^1.0.2",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
     "next": "12.2.4",

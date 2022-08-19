@@ -28,8 +28,8 @@
     flex-direction: row;
     border-bottom: 1px solid transparent;
     transition: .5s;
-    height: 4vh;
-    width: 8vw;
+    height: 5vh;
+    width: 10vw;
     justify-content: left;
     gap: .8vw;
 }

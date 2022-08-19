@@ -4,12 +4,13 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    box-shadow: 0 0 1em indigo;
+    background-color: #022031;
 }
 
 .loginImage {
     height: 80vh;
     border-radius: 10px 0 0 10px;
-    box-shadow: 0 0 1em #4B0082;
 }
 
 .loginForm {
@@ -17,10 +18,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: indigo;
+    background-color: #0C131D;
     height: 80vh;
     width: 30vw;
     border-radius: 0 10px 10px 0;
     gap: 2vh;
-    box-shadow: 0 0 1em #4B0082;
+    margin-top: -3px;
+}
+
+.logoSpan {
+    color: orange;
+}
+
+.textLogin {
+    color: #fff;
+    font: 500;
+}
+
+.titleLogin {
+    color: #fff;
+}
+
+.inputEmail, .inputPassword {
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.submitBtn {
+    height: 5vh;
+    width: 10vw;
+    color: #fff;
+    background-color: #1890FF;
+    border: none;
+    border-radius: 5px;
 }

@@ -1,0 +1,77 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "nav main main"
+        "nav foot foot";
+    grid-template-columns: 15vw auto;
+    grid-template-rows: auto auto;
+}
+
+.navbar {
+    grid-area: nav;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+}
+
+.main {
+    grid-area: main;
+    padding: 0 10px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 95vh;
+}
+
+.titlePage {
+    margin:  1vw 5vh;
+}
+
+.cardsAndForms{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    justify-content: center;
+    margin-left: 2vw;
+}
+
+.divCard {
+    gap: 1vh;
+    width: 15vw;
+    border: none;
+    height: 20vh;
+    padding: 5px;
+    display: flex;
+    transition: .8s;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.divCard:hover {
+    transition: .8s;
+    border: 1px solid rgb(220, 116, 116);
+}
+
+.icons {
+    height: 30px;
+}
+
+.footer {
+    grid-area: foot;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
