@@ -27,10 +27,22 @@
 }
 
 .titlePage {
-    margin:  1vw 5vh;
+    margin: 1vw 5vh;
 }
 
-.cardsAndForms{
+.btnGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.btnForms{
+    height: 5vh;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cardsAndForms {
     display: flex;
     flex-direction: row;
 }
@@ -50,6 +62,7 @@
     height: 20vh;
     padding: 5px;
     display: flex;
+    cursor: pointer;
     transition: .8s;
     border-radius: 5px;
     text-align: center;

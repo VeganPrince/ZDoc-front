@@ -15,13 +15,22 @@ export default function LoginForm() {
         }
         const axios = require('axios').default;
         const url = "https://localhost:7139/";
-        console.log(data.email);
 
-        axios.post(`${url}Usuario/login?email=${data.email}&senha=${data.senha}`)
-            .then(resp => {
-                console.log(resp)
-            })
-            .catch(error => console.log(error))
+        axios({
+            method: 'post',
+            url: url + "Usuario/login?email=" + data.email,
+            headers: { 'Content-Type': 'application/json' },
+            data: data.senha
+        }).then(
+            response => {
+                console.log(response.data);
+            }
+        ).catch(function (error) {
+            console.log(error);
+        });
+
+
+
 
     }
     return (

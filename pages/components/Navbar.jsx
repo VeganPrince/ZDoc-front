@@ -18,61 +18,61 @@ export default function Navbar() {
                 <ul className={styles.list}>
                     <Link href="/home" >
                         <a className={styles.listItems}>
-                            <HomeOutlined />
+                            <HomeOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>Principal</li>
                         </a>
                     </Link>
                     <Link href="/remarq">
                         <a className={styles.listItems}>
-                            <FolderOpenOutlined />
-                            <li className={styles.listText}>Remarq</li>
+                            <FolderOpenOutlined style={{ fontSize: '20px' }}/>
+                            <li className={styles.listText}>Remessa</li>
                         </a>
                     </Link>
                     <Link href="/reqdoc">
                         <a className={styles.listItems}>
-                            <FolderOutlined />
-                            <li className={styles.listText}>ReqDoc</li>
+                            <FolderOutlined style={{ fontSize: '20px' }}/>
+                            <li className={styles.listText}>Requerer</li>
                         </a>
                     </Link>
                     <Link href="/lancamentos">
                         <a className={styles.listItems}>
-                            <UploadOutlined />
+                            <UploadOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>Lançar</li>
                         </a>
                     </Link>
                     <Link href="/consulta">
                         <a className={styles.listItems}>
-                            <SearchOutlined />
+                            <SearchOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>Consultar</li>
                         </a>
                     </Link>
                     <Link href="/docplus">
                         <a className={styles.listItems}>
-                            <FolderAddOutlined />
+                            <FolderAddOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>DocPlus</li>
                         </a>
                     </Link>
                     <Link href="/material">
                         <a className={styles.listItems}>
-                            <FormatPainterOutlined />
+                            <FormatPainterOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>Material</li>
                         </a>
                     </Link>
                     <Link href="/config">
                         <a className={styles.listItems}>
-                            <SettingOutlined />
+                            <SettingOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>Gerenciar</li>
                         </a>
                     </Link>
                     <Link href="/ajuda">
                         <a className={styles.listItems}>
-                            <QuestionCircleOutlined />
+                            <QuestionCircleOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>Ajuda</li>
                         </a>
                     </Link>
                     <Link href="/">
                         <a className={styles.listItems}>
-                            <CloseOutlined />
+                            <CloseOutlined style={{ fontSize: '20px' }}/>
                             <li className={styles.listText}>Sair</li>
                         </a>
                     </Link>

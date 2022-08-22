@@ -5,9 +5,9 @@ export function UserEditForm() {
 
     return (
         <form className={styles.userForm}>
-            <h2>Edite usuário</h2>
+            <h2 className={styles.formTitle}>Edite usuário</h2>
             <label>Edit User</label>
-            <Input></Input>
+            <Input />
         </form>
     )
 }
@@ -16,9 +16,9 @@ export function UserRegisterForm() {
 
     return (
         <form className={styles.userForm}>
-            <h2>Cadastre usuário</h2>
-            <label>Cad User</label>
-            <Input></Input>
+            <h2 className={styles.formTitle}>Cadastre usuário</h2>
+            <label className={styles.label}>Cad User</label>
+            <Input className={styles.input} />
         </form>
     )
 }
